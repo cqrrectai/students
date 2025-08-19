@@ -1,6 +1,6 @@
 [build]
   command = "pnpm install && pnpm build"
-  publish = "out"
+  publish = "out/"
 
 [build.environment]
   PNPM_HOME = "/opt/buildhome/.pnpm"
