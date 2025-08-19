@@ -3,6 +3,7 @@
   publish = "out/"
 
 [build.environment]
+  NODE_VERSION = "18"
   PNPM_HOME = "/opt/buildhome/.pnpm"
   PATH = "$PNPM_HOME/bin:$PATH"
   NPM_FLAGS = "--no-progress"
