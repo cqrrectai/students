@@ -1,0 +1,11 @@
+[build]
+  command = "pnpm install && pnpm build"
+  publish = "out"
+
+[build.environment]
+  PNPM_HOME = "/opt/buildhome/.pnpm"
+  PATH = "$PNPM_HOME/bin:$PATH"
+  NPM_FLAGS = "--no-progress"
+
+[functions]
+  node_bundler = "esbuild"
