@@ -1,0 +1,16 @@
+{
+  "name": "Cqrrect AI - Smart Exam Platform",
+  "short_name": "Cqrrect AI",
+  "description": "Bangladesh's leading AI-powered exam platform with secure proctoring and AI assistance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00e4a0",
+  "icons": [
+    {
+      "src": "/images/cqrrect-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+} 
